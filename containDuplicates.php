@@ -1,20 +1,4 @@
 <?php
-
-// $funcao = function ($array){
-//   print_r($array);
-//   $array2 = array_flip($array);
-//   print_r($array2);
-// };
-
-// $funcao(['foo' => 'bar', '2' => '1']);
-
-  // $array= [1,2,3,4];
-
-  // $array2 = array_map(fn ($element) =>$element *$element, $array);
-
-  // print_r($array2);
-
-
   function containsDuplicate($nums) {
     $sortNums = sort($nums);
     $len = count($nums);

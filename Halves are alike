@@ -1,3 +1,5 @@
+<?php
+
 function isVowel($letter){
     $vowels = [
     'a','e','i','o','u','A','E','I','O','U'

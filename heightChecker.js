@@ -1,11 +1,7 @@
 var heightChecker = function(heights) {
-  var expected = [];
-  heights.forEach(element => {
-    expected.push(element);
-  });
-  if(!heights){
-      return 0;
-  }
+  var expected = [...heights];
+
+//sorting the expected list(didn't want to use built in function)
   for(i = 0; i < expected.length; i++){
     for(j = 0; j < (expected.length-i-1); j++){
       if (expected[j] > expected[j + 1]) {
